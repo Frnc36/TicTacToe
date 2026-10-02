@@ -11,7 +11,9 @@ export default function JatekTer({ lista, mezoKivalaszt }: JatekTerProps) {
     <>
       <div className="jatek-ter">
         {lista.map((e, i) => {
-          return <Mezo mezo={e} index={i} key={i} mezoKivalaszt = {mezoKivalaszt}/>;
+          return (
+            <Mezo mezo={e} index={i} key={i} mezoKivalaszt={mezoKivalaszt} />
+          );
         })}
       </div>
     </>

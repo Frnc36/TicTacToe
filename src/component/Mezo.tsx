@@ -9,7 +9,12 @@ interface MezoProps {
 export default function Mezo({ mezo, index, mezoKivalaszt }: MezoProps) {
   return (
     <>
-      <div className="mezo" onClick={()=>{mezoKivalaszt(index)}}>
+      <div
+        className="mezo"
+        onClick={() => {
+          mezoKivalaszt(index);
+        }}
+      >
         <p>{mezo.ertek}</p>
       </div>
     </>
