@@ -1,0 +1,22 @@
+.mezo {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mezo p {
+    margin: 0;
+    font-weight: bolder;
+    color: white;
+    font-size: 30pt;
+}
+
+.x-betu {
+    color: #007bff !important;
+}
+
+.o-betu {
+    color: #dc3545 !important;
+}

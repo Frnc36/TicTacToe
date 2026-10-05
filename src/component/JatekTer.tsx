@@ -1,3 +1,4 @@
+import "./jatekTer.css";
 import type { MezoTipus } from "../adatok";
 import Mezo from "./Mezo";
 
